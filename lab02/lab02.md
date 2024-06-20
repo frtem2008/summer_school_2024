@@ -77,6 +77,10 @@
 <img src="images/lab2 postman/get.png" width=500 />
 
 
+- Получение одного продукта
+  <img src="images/lab2 postman/get single.png" width=500 />
+
+
 - Обновление продукта
 <img src="images/lab2 postman/put.png" width=500 />
 
@@ -84,9 +88,6 @@
 - Удаление продукта
 <img src="images/lab2 postman/del.png" width=500 />
 
-#### Демонстрация работы
-
-todo
 
 ### Задание В (4 балла)
 

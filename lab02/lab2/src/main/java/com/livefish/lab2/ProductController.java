@@ -17,9 +17,9 @@ public class ProductController {
     }
 
     @PostMapping(value = "/product")
-    public ResponseEntity<?> create(@RequestBody Product client) {
-        productService.create(client);
-        return new ResponseEntity<>(client, HttpStatus.CREATED);
+    public ResponseEntity<?> create(@RequestBody Product product) {
+        productService.create(product);
+        return new ResponseEntity<>(product, HttpStatus.CREATED);
     }
 
     @GetMapping(value = "/products")
