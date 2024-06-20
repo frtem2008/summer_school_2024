@@ -70,7 +70,7 @@
 запросы и ответы со стороны сервиса для **всех** его операций.
 
 - Загрузка продукта
-  <img src="images/lab2 postman/post.png" width=500 />
+<img src="images/lab2 postman/post.png" width=500 />
 
 
 - Получение списка продуктов
@@ -78,7 +78,7 @@
 
 
 - Получение одного продукта
-  <img src="images/lab2 postman/get single.png" width=500 />
+<img src="images/lab2 postman/get single.png" width=500 />
 
 
 - Обновление продукта

@@ -28,19 +28,19 @@ build-A.bat
 #### Демонстрация работы
 
 - Старт сервера (порт 26780)
-  <img src="images/single threaded 1.png" width=500 />
+<img src="images/single threaded 1.png" width=500 />
 
 
 - Страница (localhost:26780/page1.html)
-  <img src="images/single threaded 2.png" width="500"/>
+<img src="images/single threaded 2.png" width="500"/>
 
 
 - Ещё страница (localhost:26780/page2.html)
-  <img src="images/single threaded 3.png" width="500"/>
+<img src="images/single threaded 3.png" width="500"/>
 
 
 - Страница не найдена (localhost:26780)
-  <img src="images/single threaded 4.png" width="500"/>
+<img src="images/single threaded 4.png" width="500"/>
 
 
 
@@ -61,7 +61,7 @@ build-B.bat
 #### Демонстрация работы
 
 - Много параллельных подключений (порт 26780)
-  <img src="images/multi threaded 1.png" width=500 />
+<img src="images/multi threaded 1.png" width=500 />
 
 ### В. Клиент (2 балла)
 Вместо использования браузера напишите собственный HTTP-клиент для тестирования вашего
