@@ -2,6 +2,7 @@ package com.livefish.lab2;
 
 import org.springframework.stereotype.Service;
 
+import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -55,5 +56,16 @@ public class ProductServiceImpl implements ProductService {
     @Override
     public boolean delete(int id) {
         return PRODUCT_MAP.remove(id) != null;
+    }
+
+    @Override
+    public boolean addImage(int id, Path path) {
+        if (PRODUCT_MAP.containsKey(id)) {
+            Product toAddImage = PRODUCT_MAP.get(id);
+            toAddImage.icon = path.toString();
+            PRODUCT_MAP.put(id, toAddImage);
+            return true;
+        }
+        return false;
     }
 }

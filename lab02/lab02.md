@@ -114,7 +114,13 @@
 
 #### Демонстрация работы
 
-todo
+- Добавление иконки
+  <img src="images/lab2 postman/post image.png" width=500 />
+
+
+- Получение иконки
+  <img src="images/lab2 postman/get image.png" width=500 />
+
 
 ---
 
